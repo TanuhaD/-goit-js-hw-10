@@ -1,0 +1,34 @@
+{
+  "name": "-goit-js-hw-10",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "targets": {
+    "default": {
+      "distDir": "./dist",
+      "publicUrl": "/-goit-js-hw-10/"
+    }
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanuhaD/-goit-js-hw-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanuhaD/-goit-js-hw-10/issues"
+  },
+  "homepage": "https://github.com/TanuhaD/-goit-js-hw-10#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.2.5"
+  }
+}

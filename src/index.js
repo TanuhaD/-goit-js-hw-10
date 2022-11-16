@@ -3,20 +3,19 @@ import { fetchCountries } from "./fetchCountries.js";
 import debounce from "lodash.debounce";
 import { Notify } from "notiflix";
 
-const DEBOUNCE_DELAY = 300;
+const DEBOUNCE_DELAY = 600;
 
 const inputEl = document.querySelector("#search-box");
 const listEl = document.querySelector(".country-list");
-const countryEl = document.querySelector(".country-info");
+const infoEl = document.querySelector(".country-info");
 
 function handleInputChange(event) {
-  const name = event.target.value.trim();
-  if (name === "") {
+  const inputValue = event.target.value.trim();
+  if (inputValue === "") {
     return;
   }
-  listEl.innerHTML = "";
-  countryEl.innerHTML = "";
-  fetchCountries(name)
+
+  const response = fetchCountries(inputValue)
     .then((data) => {
       console.log(data);
       if (data.length > 10) {
@@ -26,35 +25,36 @@ function handleInputChange(event) {
         return;
       }
       if (data.length === 1) {
-        showOneCountry(data[0]);
+        listEl.innerHTML = "";
+        showOneConutry(data[0]);
         return;
       }
-      showAllCountries(data);
+      infoEl.innerHTML = "";
+      showListCountries(data);
     })
     .catch((error) => {
       console.log(error);
-
       Notify.failure("Oops, there is no country with that name");
     });
 }
-function showOneCountry(oneCountry) {
-  console.log(oneCountry);
+function showOneConutry(oneCountry) {
   const languages = Object.values(oneCountry.languages).join(", ");
-  const markup = `<img class="flag" src="${oneCountry.flags.png}" alt="${oneCountry.name.common}" /><span class="text-explanation">${oneCountry.name.official}</span>
-  <p class="text">Capital: ${oneCountry.capital[0]}</p>
-  <p class="text">Population: ${oneCountry.population}</p>
-  <p class="text">Language: ${languages}</p>`;
-  countryEl.innerHTML = markup;
+  const markup = `<img class="flag" src="${oneCountry.flags.svg}" alt="${oneCountry.name.common}" ><span class="text-explanation">${oneCountry.name.common}</span>
+    <p class="text">Capital: ${oneCountry.capital[0]}</p>
+    <p class="text">Population: ${oneCountry.population}</p>
+     <p class="text">Language: ${languages}</p>`;
+  infoEl.innerHTML = markup;
 }
 
-function showAllCountries(allCountries) {
-  const markup = allCountries
-    .map((country) => {
-      return `<li><img class="flag" src="${country.flags.png}" alt="${country.name.common}" /><span class="text-info">${country.name.official}</span></li>`;
+function showListCountries(listOfCountries) {
+  const markup = listOfCountries
+    .map((oneCountry) => {
+      return `<li><img class="flag" src="${oneCountry.flags.svg}" alt="${oneCountry.name.common}" /><span class="text-info">${oneCountry.name.common}</span></li>`;
     })
     .join("");
   listEl.innerHTML = markup;
-
-  console.log(allCountries);
 }
+
 inputEl.addEventListener("input", debounce(handleInputChange, DEBOUNCE_DELAY));
+
+//

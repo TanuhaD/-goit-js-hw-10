@@ -3,7 +3,7 @@
 79C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\xxhash-wasm\LICENSE.md133127448264229357 0
 62C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@lmdb133129855909609712 1
 133C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\package.json133127448269091276 0
-56C:\Users\HP\Documents\GitHub\-goit-js-hw-10\src\index.js133130685364666227 0
+56C:\Users\HP\Documents\GitHub\-goit-js-hw-10\src\index.js133130730049740556 0
 146C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-exclude\package.json133127448269201275 0
 101C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.mjs133127448263919348 0
 88C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\caniuse-lite\data\regions\NR.js133127448273786832 0
@@ -58,7 +58,7 @@
 97C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\reporter-cli\src\bundleReport.js133127448262499364 0
 69C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\entities\lib133127448266973988 1
 86C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@jridgewell\set-array\LICENSE133127448262039412 0
-48C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist133129961225022475 1
+48C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist133130730050014956 1
 111C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\workers\test\integration\workerfarm\logging.js133127448266373968 0
 95C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\source-map\lib\source-map-generator.js133127448265373042 0
 75C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\.package-lock.json133129855910371726 0
@@ -3868,7 +3868,7 @@
 122C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main133127448269251274 1
 99C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\core\src\requests\TargetRequest.js133127448270481277 0
 124C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module133127448269281265 1
-71C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.77a9bc14.css.map133129862392579789 0
+71C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.77a9bc14.css.map133130717485334645 0
 128C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false133127448269321261 1
 133C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob133127448269301252 1
 144C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down133127448269411248 1
@@ -4206,7 +4206,7 @@
 68C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\.bin\terser133127448277238369 0
 72C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\.bin\terser.cmd133127448277238369 0
 72C:\Users\HP\Documents\GitHub\-goit-js-hw-10\node_modules\.bin\terser.ps1133127448277238369 0
-67C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.77a9bc14.css133129862392517206 0
-66C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.975ef6c8.js133129961224992465 0
-70C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.975ef6c8.js.map133129961225022475 0
-59C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.html133129856522933715 0
+67C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.77a9bc14.css133130717485314634 0
+66C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.975ef6c8.js133130730049985015 0
+70C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.975ef6c8.js.map133130730050004960 0
+59C:\Users\HP\Documents\GitHub\-goit-js-hw-10\dist\index.html133130717485934938 0
